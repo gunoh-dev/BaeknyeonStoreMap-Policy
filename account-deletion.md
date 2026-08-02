@@ -63,11 +63,11 @@ title: 백년가게맵 계정 및 데이터 삭제 안내
   - 사용자 snapshot에 저장된 코스 즐겨찾기, 작성자 차단 목록, 공개 커뮤니티 운영원칙 동의
   - 공개 작성자 프로필(`public_profiles/{uid}`)과 닉네임 유일성 예약
   - 사용자가 만든 PRIVATE·LINK·PUBLIC 코스(`courses` 중 `ownerUid == uid`)
-  - 사용자가 작성한 백년가게 한줄 이야기(`stories` 중 `authorUid == uid`)
+  - 사용자가 작성한 백년가게 한 줄 이야기(`stories` 중 `authorUid == uid`)
   - 신고자 또는 신고 대상 작성자로 해당 uid가 연결된 커뮤니티 신고(`community_reports`)
   - 그 밖에 백년가게맵 서버 또는 Firebase에 저장된 데이터 중 해당 uid와 직접 연결되어 계정 식별이 가능한 데이터
 
-삭제가 완료되면 서버에 백업된 즐겨찾기, 방문 기록·사진, 원본 사용자 코스와 한줄 이야기는 복구할 수 없습니다.
+삭제가 완료되면 서버에 백업된 즐겨찾기, 방문 기록·사진, 원본 사용자 코스와 한 줄 이야기는 복구할 수 없습니다.
 
 다른 이용자가 원본 코스를 `내 코스로 복사`해 만든 fork는 복사한 이용자가 소유하는 독립 콘텐츠이므로 원본 작성자의 계정 삭제만으로 삭제되지 않습니다. 다른 이용자의 저장 목록에 남은 원본 코스 참조는 원문을 복제해 보관하지 않으며, 원본 코스가 삭제된 뒤에는 더 이상 열리지 않습니다.
 
@@ -126,7 +126,7 @@ title: 백년가게맵 계정 및 데이터 삭제 안내
 
 - https://gunoh-dev.github.io/BaeknyeonStoreMap-Policy/
 
-공개 사용자 코스와 한줄 이야기의 운영 기준은 커뮤니티 운영원칙을 참고해 주세요.
+공개 사용자 코스와 한 줄 이야기의 운영 기준은 커뮤니티 운영원칙을 참고해 주세요.
 
 - https://gunoh-dev.github.io/BaeknyeonStoreMap-Policy/community-guidelines.html
 
