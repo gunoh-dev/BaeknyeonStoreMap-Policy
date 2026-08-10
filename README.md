@@ -112,7 +112,7 @@
 ### 10) Naver Cloud Directions
 - 사용자의 현재 위치 또는 선택한 지점과 목적지 사이의 경로 안내 기능 제공 목적
 
-### 11) 한국관광공사 TourAPI
+### 11) 한국관광공사 국문 관광정보 서비스
 - 주변 관광 정보, 축제, 여행 코스 및 일부 백년가게 상세 정보 보강(운영시간, 대표 메뉴 등) 등 공공 관광 정보 제공 목적
 - 위치 기반 관광 정보 조회 시 좌표 정보가 API 요청에 포함될 수 있습니다.
 
@@ -162,7 +162,7 @@ Google 로그인을 사용하는 경우 즐겨찾기 정보와 동기화에 필�
 - Firebase App Check
 - Google Play services 및 Credential Manager
 - Naver Map SDK 및 Naver Cloud Directions
-- 한국관광공사 TourAPI
+- 한국관광공사 국문 관광정보 서비스
 - Naver Map, KakaoMap 등 사용자가 직접 열기를 선택한 외부 지도 서비스
 
 ## 7. 보유 기간 및 삭제
